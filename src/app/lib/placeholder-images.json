@@ -1,0 +1,59 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "lut-lens",
+      "description": "LUT Lens photography and cinematography control panel",
+      "imageUrl": "/Images/lut-lens.jpg",
+      "imageHint": "photography control"
+    },
+    {
+      "id": "transfer-window",
+      "description": "Earth and celestial bodies in space for orbital mechanics",
+      "imageUrl": "/Images/transfer-window.jpg",
+      "imageHint": "planets space"
+    },
+    {
+      "id": "dependable",
+      "description": "Developer laptop showing code for security monitoring",
+      "imageUrl": "/Images/dependable.jpg",
+      "imageHint": "code development"
+    },
+    {
+      "id": "photo-1",
+      "description": "Low light urban landscape",
+      "imageUrl": "https://picsum.photos/seed/photo1/600/600",
+      "imageHint": "urban photography"
+    },
+    {
+      "id": "photo-2",
+      "description": "Minimalist portrait with deep shadows",
+      "imageUrl": "https://picsum.photos/seed/photo2/600/600",
+      "imageHint": "shadow portrait"
+    },
+    {
+      "id": "photo-3",
+      "description": "Night sky with long exposure stars",
+      "imageUrl": "https://picsum.photos/seed/photo3/600/600",
+      "imageHint": "starry night"
+    },
+    {
+      "id": "photo-4",
+      "description": "Foggy forest in early morning",
+      "imageUrl": "https://picsum.photos/seed/photo4/600/600",
+      "imageHint": "foggy forest"
+    },
+    {
+      "id": "photo-5",
+      "description": "Macro shot of glass texture",
+      "imageUrl": "https://picsum.photos/seed/photo5/600/600",
+      "imageHint": "glass texture"
+    },
+    {
+      "id": "photo-6",
+      "description": "Street lights reflecting in rain puddle",
+      "imageUrl": "https://picsum.photos/seed/photo6/600/600",
+      "imageHint": "rain reflection"
+    }
+  ]
+}
