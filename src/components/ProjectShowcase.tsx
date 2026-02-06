@@ -19,7 +19,7 @@ export function ProjectShowcase() {
       title: "Transfer Window Calculator",
       description: "Allows you to calculate the angle between two planets for a transfer window. An essential tool for interplanetary orbital mechanics simulations and flight planning.",
       tags: ["Orbital Mechanics", "Math", "Visualization"],
-      imageUrl: "/Images/transfer-window.jpg",
+      imageUrl: "/Images/transfer-window-calculator.jpg",
       githubUrl: "https://github.com/Diffraction-Works/Transfer-Window-Calculator",
       hint: "planets space",
       stars: 0,
