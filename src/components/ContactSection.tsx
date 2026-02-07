@@ -1,4 +1,5 @@
-import { Github, Instagram, Mail, Twitter, Linkedin, ExternalLink, ArrowRight } from "lucide-react";
+import { Github, Instagram, Mail, ExternalLink, ArrowRight } from "lucide-react";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -6,9 +7,8 @@ export function ContactSection() {
   const socialLinks = [
     { name: "GitHub", handle: "@Diffraction-Works", icon: Github, href: "https://github.com/Diffraction-Works", color: "hover:text-white" },
     { name: "Instagram", handle: "@diffraction_works", icon: Instagram, href: "https://www.instagram.com/diffraction_works/", color: "hover:text-accent" },
-    { name: "LinkedIn", handle: "Diffraction Works", icon: Linkedin, href: "#", color: "hover:text-primary" },
-    { name: "Twitter", handle: "@diffraction_wrks", icon: Twitter, href: "#", color: "hover:text-blue-400" },
   ];
+
 
   return (
     <section id="contact" className="py-24 border-t border-border/50">
@@ -22,18 +22,18 @@ export function ContactSection() {
             </p>
             
             <div className="space-y-6">
-              <Link 
-                href="mailto:contact@diffraction.works" 
-                className="flex items-center gap-4 group p-4 rounded-xl bg-card border border-border/50 hover:border-primary/50 transition-all"
+              <div 
+                className="flex items-center gap-4 group p-4 rounded-xl bg-card border border-border/50 opacity-60 cursor-not-allowed"
               >
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Direct Email</p>
-                  <p className="text-lg font-headline font-medium">contact@diffraction.works</p>
+                  <p className="text-lg font-headline font-medium">(coming soon)</p>
                 </div>
-              </Link>
+              </div>
+
             </div>
           </div>
 

@@ -1,17 +1,14 @@
-
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { Instagram, Plus } from "lucide-react";
-import { PlaceHolderImages } from "@/app/lib/placeholder-images";
+import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Script from "next/script";
 
 export function PhotographyFeed() {
-  const photos = PlaceHolderImages.filter(img => img.id.startsWith("photo-"));
-
   return (
     <section id="photography" className="py-24 bg-card">
+      <Script src="//www.instagram.com/embed.js" strategy="lazyOnload" />
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="font-headline text-accent text-sm font-bold uppercase tracking-[0.3em] mb-4">Visual Arts</h2>
@@ -21,33 +18,120 @@ export function PhotographyFeed() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-          {photos.map((photo, idx) => (
-            <div 
-              key={photo.id} 
-              className="relative aspect-square group overflow-hidden bg-muted rounded-lg fade-in"
-              style={{ animationDelay: `${idx * 100}ms` }}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+          {/* Instagram Embed 1 */}
+          <div className="instagram-embed-container flex justify-center">
+            <blockquote 
+              className="instagram-media" 
+              data-instgrm-permalink="https://www.instagram.com/p/DT4guPZkq7M/?utm_source=ig_embed&amp;utm_campaign=loading" 
+              data-instgrm-version="14"
+              style={{ 
+                background: '#FFF', 
+                border: 0, 
+                borderRadius: '3px', 
+                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)', 
+                margin: '1px', 
+                maxWidth: '540px', 
+                minWidth: '326px', 
+                padding: 0, 
+                width: '99.375%' 
+              }}
             >
-              <Image
-                src={photo.imageUrl}
-                alt={photo.description}
-                fill
-                className="object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-50"
-                data-ai-hint={photo.imageHint}
-              />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <div className="text-center p-4">
-                  <Instagram className="w-8 h-8 text-white mx-auto mb-2" />
-                  <p className="text-white text-xs font-bold uppercase tracking-widest hidden sm:block">View on Instagram</p>
-                </div>
+              <div style={{ padding: '16px' }}>
+                <a 
+                  href="https://www.instagram.com/p/DT4guPZkq7M/?utm_source=ig_embed&amp;utm_campaign=loading" 
+                  style={{ 
+                    background: '#FFFFFF', 
+                    lineHeight: 0, 
+                    padding: '0 0', 
+                    textAlign: 'center', 
+                    textDecoration: 'none', 
+                    width: '100%' 
+                  }} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View this post on Instagram
+                </a>
               </div>
-              <Link 
-                href="https://www.instagram.com/diffraction_works/" 
-                target="_blank" 
-                className="absolute inset-0 z-10"
-              />
-            </div>
-          ))}
+            </blockquote>
+          </div>
+
+          {/* Instagram Embed 2 */}
+          <div className="instagram-embed-container flex justify-center">
+            <blockquote 
+              className="instagram-media" 
+              data-instgrm-permalink="https://www.instagram.com/p/DTrbkktErTn/?utm_source=ig_embed&amp;utm_campaign=loading" 
+              data-instgrm-version="14"
+              style={{ 
+                background: '#FFF', 
+                border: 0, 
+                borderRadius: '3px', 
+                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)', 
+                margin: '1px', 
+                maxWidth: '540px', 
+                minWidth: '326px', 
+                padding: 0, 
+                width: '99.375%' 
+              }}
+            >
+              <div style={{ padding: '16px' }}>
+                <a 
+                  href="https://www.instagram.com/p/DTrbkktErTn/?utm_source=ig_embed&amp;utm_campaign=loading" 
+                  style={{ 
+                    background: '#FFFFFF', 
+                    lineHeight: 0, 
+                    padding: '0 0', 
+                    textAlign: 'center', 
+                    textDecoration: 'none', 
+                    width: '100%' 
+                  }} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View this post on Instagram
+                </a>
+              </div>
+            </blockquote>
+          </div>
+
+          {/* Instagram Embed 3 */}
+          <div className="instagram-embed-container flex justify-center">
+            <blockquote 
+              className="instagram-media" 
+              data-instgrm-permalink="https://www.instagram.com/p/DTrdXPAEqRC/?utm_source=ig_embed&amp;utm_campaign=loading" 
+              data-instgrm-version="14"
+              style={{ 
+                background: '#FFF', 
+                border: 0, 
+                borderRadius: '3px', 
+                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)', 
+                margin: '1px', 
+                maxWidth: '540px', 
+                minWidth: '326px', 
+                padding: 0, 
+                width: '99.375%' 
+              }}
+            >
+              <div style={{ padding: '16px' }}>
+                <a 
+                  href="https://www.instagram.com/p/DTrdXPAEqRC/?utm_source=ig_embed&amp;utm_campaign=loading" 
+                  style={{ 
+                    background: '#FFFFFF', 
+                    lineHeight: 0, 
+                    padding: '0 0', 
+                    textAlign: 'center', 
+                    textDecoration: 'none', 
+                    width: '100%' 
+                  }} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View this post on Instagram
+                </a>
+              </div>
+            </blockquote>
+          </div>
         </div>
 
         <div className="mt-12 text-center">
