@@ -46,3 +46,6 @@ firestore-debug.log
 
 # blackbox
 .blackboxrules
+
+# todo files
+TODO.md
