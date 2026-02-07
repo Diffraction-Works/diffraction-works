@@ -12,12 +12,8 @@ export function Hero() {
 
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-4xl mx-auto text-center fade-in">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary mb-6 animate-pulse">
-            <span className="w-2 h-2 rounded-full bg-primary" />
-            <span className="text-xs font-bold uppercase tracking-widest font-headline">Available for Collaboration</span>
-          </div>
-          
           <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
+
             Capturing <span className="text-primary italic">Light</span>, <br />
             Crafting <span className="text-accent underline decoration-accent/30 underline-offset-8">Code</span>.
           </h1>
