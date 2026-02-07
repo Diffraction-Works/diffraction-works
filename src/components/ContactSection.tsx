@@ -18,8 +18,9 @@ export function ContactSection() {
             <h2 className="font-headline text-accent text-sm font-bold uppercase tracking-[0.3em] mb-4">Get In Touch</h2>
             <h3 className="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-8">Let's work together.</h3>
             <p className="font-body text-muted-foreground text-lg mb-8 leading-relaxed">
-              Available for commercial photography projects and custom software development. Whether you have a specific vision or just want to chat about a potential collaboration, we'd love to hear from you.
+              Available for commercial photography projects and custom software development. Whether you have a specific vision or just want to chat, we'd love to hear from you.
             </p>
+
             
             <div className="space-y-6">
               <div 
