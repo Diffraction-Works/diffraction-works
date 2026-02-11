@@ -29,8 +29,9 @@ export function Hero() {
           
           <ScrollReveal animation="fade-up" delay={200} duration={800}>
             <p className="font-body text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-              Diffraction Works is a creative studio at the intersection of professional photography and high-performance open-source software development.
+              Diffraction Works is a creative studio at the intersection of photography and high-performance open-source software development.
             </p>
+
           </ScrollReveal>
 
           <ScrollReveal animation="fade-up" delay={300} duration={800}>

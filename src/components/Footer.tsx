@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Github, Instagram, Heart, ArrowUp } from "lucide-react";
+import { Github, Instagram, ArrowUp } from "lucide-react";
+
 import { ScrollReveal } from "./ScrollReveal";
 
 
@@ -25,10 +26,9 @@ export function Footer() {
             </Link>
 
             <p className="text-sm text-muted-foreground flex items-center gap-1">
-              &copy; {new Date().getFullYear()} Diffraction Works. Built with 
-              <Heart className="w-3 h-3 text-red-500 fill-red-500 animate-pulse" /> 
-              and passion.
+              &copy; {new Date().getFullYear()} Diffraction Works.
             </p>
+
 
             <div className="flex items-center gap-4">
               <Link 

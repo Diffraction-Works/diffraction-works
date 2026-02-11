@@ -5,7 +5,8 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
   title: 'Diffraction Works | Photography & Code',
-  description: 'The creative portfolio of Diffraction Works featuring open-source projects and professional photography.',
+  description: 'The creative portfolio of Diffraction Works featuring open-source projects and photography.',
+
 };
 
 export default function RootLayout({
