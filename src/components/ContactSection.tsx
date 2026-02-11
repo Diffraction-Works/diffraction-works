@@ -25,22 +25,25 @@ export function ContactSection() {
               <h2 className="font-headline text-accent text-sm font-bold uppercase tracking-[0.3em] mb-4">Get In Touch</h2>
               <h3 className="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-8">Let's work together.</h3>
               <p className="font-body text-muted-foreground text-lg mb-8 leading-relaxed">
-                Available for commercial photography projects and custom software development. Whether you have a specific vision or just want to chat, we'd love to hear from you.
+                Available for custom software development. Whether you have a specific vision or just want to chat, we'd love to hear from you.
               </p>
 
               
               <div className="space-y-6">
-                <div 
-                  className="flex items-center gap-4 group p-4 rounded-xl bg-card border border-border/50 opacity-60 cursor-not-allowed transition-all hover:border-border"
+                <a 
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=diffractionworks@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 group p-4 rounded-xl bg-card border border-border/50 transition-all hover:border-accent hover:bg-accent/5"
                 >
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-accent/20 transition-colors">
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
                     <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Direct Email</p>
-                    <p className="text-lg font-headline font-medium">(coming soon)</p>
+                    <p className="text-lg font-headline font-medium group-hover:text-accent transition-colors">diffractionworks@gmail.com</p>
                   </div>
-                </div>
+                </a>
 
               </div>
             </div>
