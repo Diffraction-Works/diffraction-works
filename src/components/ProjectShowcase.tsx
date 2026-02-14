@@ -13,7 +13,7 @@ export function ProjectShowcase() {
       title: "LUT Lens",
       description: "A web-based tool for photographers and content creators to preview and apply Look-Up Tables (LUTs) to images in real-time. Upload images and LUT files (.cube, .3dl) to instantly see color grades applied, with download capabilities and a modern, responsive interface built on Next.js and Firebase.",
       tags: ["Next.js", "Firebase", "Web Workers", "Color Science"],
-      imageUrl: "/images/lut-lens.jpg",
+      imageUrl: "/Images/lut-lens.jpg",
 
       githubUrl: "https://github.com/Diffraction-Works/LUT-Lens",
       demoUrl: "https://diffraction-works.github.io/LUT-Lens/",
@@ -26,7 +26,7 @@ export function ProjectShowcase() {
       title: "Transfer Window Calculator",
       description: "Allows you to calculate the angle between two planets for a transfer window. An essential tool for interplanetary orbital mechanics simulations and flight planning.",
       tags: ["Orbital Mechanics", "Math", "Visualization"],
-      imageUrl: "/images/transfer-window-calculator.jpg",
+      imageUrl: "/Images/transfer-window-calculator.jpg",
 
       githubUrl: "https://github.com/Diffraction-Works/Transfer-Window-Calculator",
       hint: "planets space",
@@ -38,7 +38,7 @@ export function ProjectShowcase() {
       title: "Dependable",
       description: "A comprehensive dependency health monitoring tool that scans your project dependencies and provides detailed reports on security vulnerabilities, maintenance status, license compatibility, bundle size impact, and automated update recommendations. Keep your dependencies reliable and secure.",
       tags: ["Security", "NPM", "Automation", "Health Monitoring"],
-      imageUrl: "/images/dependable.jpg",
+      imageUrl: "/Images/dependable.jpg",
 
       githubUrl: "https://github.com/Diffraction-Works/Dependable",
       hint: "code development",
