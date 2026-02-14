@@ -37,7 +37,7 @@ I like photography as a way to express my creativity and engage in photography, 
 ## Get in Touch
 
 - **Photography**: [Instagram](https://www.instagram.com/diffraction_works/)
-- **Email**: Official email coming soon
+- **Email**: diffractionworks@gmail.com
 
 ---
 
