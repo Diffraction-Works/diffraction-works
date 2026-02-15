@@ -41,6 +41,8 @@ I like photography as a way to express my creativity and engage in photography, 
 
 ---
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C21U9MVO)
+
 <div align="center">
 
 *Made with care by Diffraction Works*
