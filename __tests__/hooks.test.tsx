@@ -112,7 +112,7 @@ describe('useScrollAnimation hook', () => {
     expect(result.current.hasAnimated).toBe(false)
   })
 
-  it.skip('should respect reduced motion preference', () => {
+  it('should respect reduced motion preference', () => {
 
     // Mock matchMedia to return true for reduced motion preference
     // Must be set before renderHook so the hook reads it on mount
