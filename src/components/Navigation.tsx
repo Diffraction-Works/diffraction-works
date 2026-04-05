@@ -24,6 +24,7 @@ export function Navigation() {
   const navLinks = [
     { name: "Projects", href: "#projects", icon: Code },
     { name: "Photography", href: "#photography", icon: Camera },
+    { name: "Instagram", href: "https://instagram.com/diffraction_works/", icon: Instagram },
     { name: "Contact", href: "#contact", icon: Github },
   ];
 
@@ -102,9 +103,6 @@ export function Navigation() {
           <ThemeToggle variant="outline" size="icon" className="rounded-full" />
           <Link href="https://github.com/Diffraction-Works" target="_blank" className="p-3 bg-card border rounded-full hover:text-accent transition-all hover:scale-110 hover:rotate-6">
             <Github className="w-6 h-6" />
-          </Link>
-          <Link href="https://www.instagram.com/diffraction_works/" target="_blank" className="p-3 bg-card border rounded-full hover:text-accent transition-all hover:scale-110 hover:rotate-6">
-            <Instagram className="w-6 h-6" />
           </Link>
         </div>
       </div>
